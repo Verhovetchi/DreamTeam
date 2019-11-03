@@ -1,0 +1,503 @@
+﻿body {
+     padding: 0;
+     margin: 0;
+}
+
+.wrapper {
+     background-color: rgba(248,249,250, 0.9);
+     border-radius: 10px;
+     width: 900px;
+     height: 50px;
+     overflow: hidden;
+     margin: 0 auto;
+}
+
+#logo {
+     overflow: hidden;
+     float: left;
+     height: inherit;
+     width: 140px;
+     margin-left: 10px;
+}
+
+#image {
+     float: left;
+     height: inherit;
+     width: 49px;
+}
+
+img.barca {
+     height: 50px;
+}
+
+#Barcelona {
+     float: left;
+     width: 71px;
+     height: 25px;
+     margin-top: 6px;
+     margin-left: 5px;
+}
+
+.B {
+     font-size: 24px;
+     color: #DB0030;
+}
+
+.blue {
+     color: #004D98;
+}
+
+.red {
+     color: #A50044;
+}
+
+#registration {
+     float: right;
+     height: inherit;
+     width: 220px;
+     margin-right: 10px;
+}
+
+#aut {
+     display: none;
+     z-index: 1000;
+}
+
+#Reg {
+     margin-left: 151px;
+     float: right;
+}
+
+#Log {
+     float: left;
+     margin-left: -10px;
+}
+
+#Login {
+     margin-top: 9px;
+}
+
+#aut {
+     position: fixed;
+     top: 20%;
+     left: 37%;
+     border: 1px solid #A3BAE9;
+     width: 300px;
+     height: 150px;
+     border-radius: 5px;
+     background: #E4ECF7;
+}
+
+#name {
+     font-size: 15px;
+     width: 100%;
+     margin-top: 5px;
+     color: blue;
+     width: 60%;
+     margin-left: 30px;
+}
+
+.pass {
+     margin-left: 34%;
+}
+
+.form {
+     width: 94%;
+     padding: 3%;
+     margin-left: 3%;
+     height: 110px;
+     margin-top: 5px;
+     border: 1px solid #A3BAE9;
+}
+
+
+
+#password1 {
+     width: 60%;
+     margin-left: 34px;
+}
+
+label {
+     font-size: 14px;
+}
+
+.formint {
+     margin-top: -10px;
+}
+
+.username, .password {
+     background: #EAEFE6;
+}
+
+     .username:hover {
+          background: white;
+     }
+
+     .password:hover {
+          background: white;
+     }
+
+#user, #parola {
+     color: #DB0030;
+}
+
+#LogIn {
+     font-size: 12px;
+     margin-left: 56%;
+}
+
+.left {
+     float: left;
+     position: absolute;
+     left: 5%;
+     top: 70%;
+}
+
+.right {
+     margin: 0;
+     position: relative;
+     left: 10%;
+     bottom: 20%;
+}
+
+.logo {
+     float: left;
+     margin-left: 10px;
+}
+
+.logreg {
+     float: right;
+}
+
+#article {
+     min-height: 1000px;
+     margin-top: 2px;
+     overflow: hidden;
+}
+
+#information {
+     margin: 0 auto;
+     width: 800px;
+     border: 1px solid blue;
+     margin-top: 20px;
+     height: 500px;
+     overflow: hidden;
+     border-radius: 20px;
+}
+
+.content {
+     background-color: rgba(119,132,121, 0.7);
+     height: 60px;
+}
+
+.text {
+     width: 600px;
+     margin: 0 auto;
+     color: #841138;
+     font-size: 20px;
+     text-align: center;
+}
+
+#timer {
+     position: fixed;
+     left: 38%;
+     top: 20%;
+     z-index: 100;
+     width: 270px;
+     height: 170px;
+     border-radius: 5px;
+     background-color: #203E75;
+     display: none;
+}
+
+.nextmatch {
+     height: 25px;
+     width: 100%;
+     border: 1px solid red;
+     text-align: center;
+     background-color: #B1112D;
+     color: white;
+     font-size: 18px;
+}
+
+.img1 {
+     margin-top: 2px;
+     width: 40%;
+     height: 110px;
+     float: left;
+}
+
+.versus {
+     float: left;
+     margin-top: 30px;
+     width: 15%;
+     height: 50px;
+     color: white;
+     margin-left: 3px;
+}
+
+.img2 {
+     float: right;
+     width: 40%;
+     height: 110px;
+     margin-left: 2px;
+}
+
+.clock {
+     float: none;
+     position: absolute;
+     bottom: 0;
+     height: 40px;
+     width: 100%;
+}
+
+.data {
+     height: 70px;
+     width: 135px;
+     color: white;
+     margin: 0 auto;
+     margin-top: 10px;
+}
+
+
+#menu {
+     position: relative;
+     top: 15px;
+     left: 50px;
+     height: 30px;
+     margin-bottom: 5px;
+     width: 800px;
+     line-height: 20px;
+}
+
+#Log.other {
+     margin-left: 0px;
+}
+
+#Log.first {
+     margin-left: 10px;
+}
+
+#middle {
+     height: inherit;
+     position: absolute;
+     width: 390px;
+     left: 230px;
+}
+
+#footer {
+     margin-top: 5px;
+     height: 40px;
+}
+
+div.niv4 {
+     float: left;
+     margin-top: 15px;
+     margin-bottom: 7px;
+     width: 353px;
+     font-size: 20px;
+     margin-top: 5px;
+}
+
+.copy {
+     color: red;
+}
+
+.new {
+     color: blue;
+}
+
+#right {
+     float: right;
+     width: 120px;
+     height: inherit;
+}
+
+.facebook, .twitter, .telegram {
+     float: left;
+     margin-top: 2px;
+     margin-right: 5px;
+}
+
+#plic {
+     margin-right: 10px;
+     margin-bottom: 46px;
+     float: left;
+}
+
+*[role="form"] {
+     max-width: 530px;
+     padding: 15px;
+     margin: 0 auto;
+     border-radius: 0.3em;
+     background-color: #f2f2f2;
+}
+
+     *[role="form"] h2 {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 40px;
+          font-weight: 600;
+          color: #000000;
+          margin-top: 5%;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 4px;
+     }
+
+.container {
+     margin-top: 10px;
+}
+
+.form-horizontal {
+     background-color: rgba(119,132,121, 0.7);
+}
+
+#male {
+     margin-left: 14px;
+}
+
+#female {
+     margin-left: 14px;
+}
+
+#password {
+     margin-left: 0px;
+}
+
+
+.das {
+     position: relative;
+     width: 100px;
+     text-align: center;
+     color: red;
+     top: -16px;
+     left: 138px;
+}
+
+#new {
+     margin-top: 2px;
+     height: 867px;
+}
+
+#statistics {
+     position: fixed;
+     width: 220px;
+     height: 400px;
+     left: 1127px;
+     bottom: 27%;
+     border-radius: 20px;
+     background-color: #203E75;
+}
+
+#calc {
+     height: 30px;
+     background-color: #B1112D;
+     text-align: center;
+     color: white;
+     font-size: 22px;
+}
+
+#lequipe {
+     margin-top: 5px;
+     width: inherit;
+     height: 30px;
+     color: white;
+     font-size: 18px;
+     text-align: center;
+     border-bottom: 1px solid white;
+}
+
+#matches {
+     border-bottom: 1px solid white;
+     height: 30px;
+}
+
+.match {
+     margin-top: 2px;
+     font-size: 16px;
+     color: white;
+     float: left;
+     margin-left: 15px;
+}
+
+#number {
+     float: right;
+     font-size: 16px;
+     color: white;
+     margin-top: 3px;
+     margin-right: 30px;
+}
+
+#winer {
+     border-bottom: 1px solid white;
+     height: 30px;
+}
+
+#Effective_draw {
+     height: 30px;
+}
+
+a {
+     text-decoration: none;
+     color: #1E1E1E;
+}
+
+#registration1 {
+     float: right;
+     height: inherit;
+     width: 220px;
+     margin-right: 10px;
+}
+
+#Login1 {
+     margin-top: 10px;
+}
+
+#Log1 {
+     color: #A50044;
+     float: left;
+     margin-left: 100px;
+     border-radius: 20px;
+     border: 1px solid red;
+}
+
+     #Log1:hover {
+          border: 1px solid #004D98;
+          color: red;
+          background-color: #004D98;
+          float: left;
+     }
+
+#Reg1 {
+     color: #A50044;
+     margin-left: 10px;
+     float: right;
+     border-radius: 20px;
+     border: 1px solid red;
+}
+
+     #Reg1:hover {
+          border: 1px solid #004D98;
+          color: red;
+          background-color: #004D98;
+     }
+
+#Log10 {
+     color: #A50044;
+     float: left;
+     margin-left: 15px;
+     border-radius: 20px;
+     border: 1px solid red;
+}
+
+     #Log10:hover {
+          border: 1px solid #004D98;
+          color: red;
+          background-color: #004D98;
+          float: left;
+     }
+
+#logare {
+     margin-top: 6px;
+     margin-left: 350px;
+}
